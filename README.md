@@ -1,16 +1,22 @@
 # foodrecipes
 
-A new Flutter project.
+#### new flutter app contains of different egyptian recipes 
 
 ## Getting Started
+### We use cubit as state management that separate the ui from  logic  and handles the states 
+## Aritchtechture used 
+####  Mvvm Architechture that separate the app into 2 layers
+### data layer 
+### presentation layer
+## Dependency injection
+### I apply it by service locator get_it pacakge to apply singleton Pattern
+## features
+## splash screen using lottie animation 
+## home screen that view all egyptian food in api 
+## food categories
+## recipe details 
+## applying localization (english,arabic)
+## screen_util used for responsive ui
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
